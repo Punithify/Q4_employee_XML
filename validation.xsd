@@ -1,0 +1,5 @@
+<xs:simpleType name="IDType">
+    <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0"></xs:minInclusive>
+    </xs:restriction>
+</xs:simpleType>
